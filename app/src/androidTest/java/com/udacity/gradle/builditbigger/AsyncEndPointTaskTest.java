@@ -46,10 +46,8 @@ public class AsyncEndPointTaskTest {
             @Override
             protected void onPostExecute(String result) {
                 assertNotNull(result);
-                if (result != null){
-                    assertTrue(result.length() > 0);
-                    signal.countDown();
-                }
+                assertTrue(result.length() > 0);
+                signal.countDown();
             }
         };
         asyncEndPointTask.execute(context);
