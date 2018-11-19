@@ -1,0 +1,25 @@
+Nov 18, 2018 7:27:56 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Nov 18, 2018 7:27:57 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\SHOW\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\SHOW\Desktop\ud867-master\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+2018-11-18 19:28:01.166:INFO::main: Logging initialized @5251ms to org.eclipse.jetty.util.log.StdErrLog
+2018-11-18 19:28:01.301:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Nov 18, 2018 6:28:02 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (C:\Users\SHOW\Desktop\ud867-master\FinalProject) is not equal to your 
+web application root (C:\Users\SHOW\Desktop\ud867-master\FinalProject\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+2018-11-18 19:28:02.924:INFO:oejs.Server:main: jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_152-release-915-b01
+2018-11-18 19:28:05.496:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@1349883{/,file:///C:/Users/SHOW/Desktop/ud867-master/FinalProject/backend/build/exploded-backend/,AVAILABLE}{C:\Users\SHOW\Desktop\ud867-master\FinalProject\backend\build\exploded-backend}
+2018-11-18 19:28:05.497:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2018-11-18 19:28:05.497:INFO:oejs.session:main: node0 Scavenging disabled
+2018-11-18 19:28:05.576:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@4681c175{HTTP/1.1,[http/1.1]}{localhost:8080}
+2018-11-18 19:28:05.579:INFO:oejs.Server:main: Started @9664ms
+Nov 18, 2018 6:28:05 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Nov 18, 2018 6:28:05 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Nov 18, 2018 7:28:05 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Nov 18, 2018 7:43:07 PM com.google.appengine.tools.development.jetty9.LocalResourceFileServlet doGet
+WARNING: No file found for: /favicon.ico
