@@ -64,7 +64,7 @@ public class AsyncEndPointTaskInstrumentedTest {
                     Assert.assertEquals(5,s.length());
                     return myApiService.sayHi().execute().getData();
                 } catch (IOException e) {
-                    return e.getMessage();
+                    return null;
                 }
             }
         };
